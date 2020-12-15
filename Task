@@ -1,0 +1,31 @@
+import java.util.Scanner;
+Public class Pattern
+{
+
+static void print(int n)
+{
+
+int var1=1,var2=1;
+for(int i=0;i<=n;i++)
+{
+for(int j=n-1;j>i;j--)
+{
+System.out.println("");
+}
+}
+for(int k=1;k<=var1;k++)
+{
+System.out.println(Math.abs(k-var2);
+}
+var1+=2;
+var2++;
+System.out.println();
+}
+}
+Public static void main(String[] args)
+{
+Scanner s=new Scanner(Sysytem.in);
+int n=s.nextInt();
+print (n);
+}
+}
